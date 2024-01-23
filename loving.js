@@ -34,3 +34,5 @@ function start_hearts(){
     document.addEventListener("mousemove", mouse);
     setInterval(update, 100);
 }
+
+document.addEventListener("load", start_hearts)
