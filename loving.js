@@ -35,4 +35,4 @@ function start_hearts(){
     setInterval(update, 100);
 }
 
-document.addEventListener("load", start_hearts)
+start_hearts()
