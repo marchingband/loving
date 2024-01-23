@@ -32,5 +32,6 @@
     }
 
     document.addEventListener("mousemove", mouse);
+    document.addEventListener("touchmove", mouse);
     setInterval(update, 100);
 })();
