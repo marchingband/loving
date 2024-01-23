@@ -30,5 +30,7 @@ function update(){
     })
 }
 
-document.addEventListener("mousemove", mouse);
-setInterval(update, 100);
+function start_hearts(){
+    document.addEventListener("mousemove", mouse);
+    setInterval(update, 100);
+}
