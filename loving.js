@@ -5,7 +5,8 @@
     function mouse({pageX, pageY}){
         if(cnt++ % 10 == 0){
             let heart = document.createElement("div");
-            heart.innerText = "❤️";
+            heart.innerText = "♥";
+            // heart.innerText = "❤️";
             heart.style.position = 'absolute';
             heart.style.left = pageX + 'px';
             heart.style.top = pageY + 'px';
